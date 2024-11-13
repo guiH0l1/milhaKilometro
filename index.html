@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Milha/km</title>
+</head>
+
+<body>
+    <form onsubmit="converter(event)">
+        <h1>Conversor de Milhas para Quilômetros</h1>
+        
+        <label for="milha">Digite o valor em Milhas:</label>
+        <input type="number" id="milha" placeholder="Digite um número" required>
+        
+        <button type="submit">Converter</button>
+        <button type="reset">Limpar</button>
+        
+        <p>
+            <label for="km">Resultado em Quilômetros:</label>
+            <input type="text" id="km" disabled>
+        </p>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

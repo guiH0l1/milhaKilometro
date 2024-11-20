@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #414fd3 ; 
+    font-family: Arial, sans-serif; 
+    color: aliceblue;
+}
+
+#milha{
+    border-radius: 5px;
+}
+
+button{
+    width: 75px;
+    height: 24px;
+    margin: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #414fd3;
+}

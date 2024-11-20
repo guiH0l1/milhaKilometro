@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor Milha/km</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,14 +13,14 @@
         <h1>Conversor de Milhas para Quilômetros</h1>
         
         <label for="milha">Digite o valor em Milhas:</label>
-        <input type="number" id="milha" placeholder="Digite um número" required>
+        <input type="number" id="milha" placeholder="MIlhas" required>
         
-        <button type="submit">Converter</button>
-        <button type="reset">Limpar</button>
+        <button class="botao" type="submit">Converter</button>
+        <button class="botao" type="reset">Limpar</button>
         
         <p>
             <label for="km">Resultado em Quilômetros:</label>
-            <input type="text" id="km" disabled>
+           <h3 id="resultado"><strong></strong></h3>
         </p>
     </form>
 

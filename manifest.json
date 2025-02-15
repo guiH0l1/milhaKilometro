@@ -2,7 +2,7 @@
     "name": "Conversor de Milhas para Quilômetros",
     "short_name": "Conversor Milhas",
     "description": "Conversor de milhas para quilômetros com funcionalidade offline.",
-    "start_url": "/miqm/",
+    "start_url": "/milhakilometro/",
     "scope": "/",
     "dir":"ltr",
     "lang":"pt-br",

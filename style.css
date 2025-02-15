@@ -1,0 +1,106 @@
+/* Estilo global */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #414fd3;
+    font-family: 'Timmana', sans-serif;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Estilizando o formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo do input */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Efeito ao focar no campo de entrada */
+input[type="number"]:focus {
+    border-color: #fffbf8;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.6);
+}
+
+/* Estilo dos botões */
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    background-color: #414fd3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    background-color: #ff6600;
+}
+
+/* Estilo para o texto do resultado */
+h3#resultado {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fffbf9;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    h3#resultado {
+        font-size: 1.2rem;
+    }
+}
